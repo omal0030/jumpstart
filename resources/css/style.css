@@ -2,12 +2,85 @@
 /* General Content */
 
 html {
-  font-size: 16px;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
 }
 
+/* Header */
 
+header {
+  position: fixed;
+  z-index: 2000;
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  font-size: 1.1rem;
+  min-width: 100%;
+  border-bottom: 1px solid #e7e7e7;
+  background-color: #f8f8f8;
+}
 
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+.menu ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu ul li {
+  width: 8rem;
+  text-align: center;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #399bd1;
+}
+
+a:hover {
+  color: #337ab7;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 4rem;
+}
+
+/* Banner */
+
+.banner {
+
+}
+
+.background-image-1,
+.background-image-2,
+.background-image-3,
+.background-image-4 {
+
+}
+
+.background-image-1 {
+  background-image: url("../images/jumbotron-bike.jpg");
+}
+
+.background-image-2 {
+  background-image: url("../images/jumbotron-duffel.jpg");
+}
+
+.background-image-3 {
+  background-image: url("../images/jumbotron-beer.jpg");
+}
+
+.background-image-4 {
+  background-image: url("../images/jumbotron-flowers.jpg");
+}
 
 
 
@@ -16,23 +89,22 @@ html {
 /* Footer */
 
 footer {
-  display: flex;
-  justify-content: space-between;
-  background-color: #8F9FAC;
-  padding: 1.5rem;
-  min-height: 4rem;
-  right: 0;
-  color: white;
+  background-color: #f3f3f3;
+  padding: 5.2rem 0;
+  text-align: center;
 }
 
-footer .company {
-  align-self: center;
+footer h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
 }
 
-footer .menu {
-  min-width: 10rem;
+footer .text-box p {
+  max-width: 42rem;
+  margin: auto;
 }
 
-footer .menu ul li a {
-  color: white;
+footer .btn {
+  top: 2rem;
 }

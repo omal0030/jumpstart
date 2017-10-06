@@ -1,0 +1,38 @@
+
+/* General Content */
+
+html {
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #8F9FAC;
+  padding: 1.5rem;
+  min-height: 4rem;
+  right: 0;
+  color: white;
+}
+
+footer .company {
+  align-self: center;
+}
+
+footer .menu {
+  min-width: 10rem;
+}
+
+footer .menu ul li a {
+  color: white;
+}
